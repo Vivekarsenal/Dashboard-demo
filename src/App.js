@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React, { useState } from 'react';
+// import Dashboard from './Dashboard.js';
+import Navbar from './Navbar.jsx';
 
-function App() {
+
+
+
+const App = () => {
+  // Initial categories and widgets data
+  // /const [categories, setCategories] = useState([
+  //   {
+  //     name: "CSPM Executive Dashboard",
+  //     widgets: [
+  //       { id: 1, name: "Widget 1", text: "This is widget 1 content." },
+  //       { id: 2, name: "Widget 2", text: "This is widget 2 content." }
+  //     ]
+  //   },
+  //   {
+  //     name: "Security Dashboard",
+  //     widgets: [
+  //       { id: 3, name: "Widget 3", text: "This is widget 3 content." }
+  //     ]
+  //   }
+  // ]); 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     This is a Dashboard sample
+     
+       {/* <Navbar />  */}
+      
     </div>
   );
-}
+};
 
 export default App;
+
